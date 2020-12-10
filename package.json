@@ -1,0 +1,19 @@
+{
+  "name": "landing-page-vanilla-sass-npm",
+  "version": "1.0.0",
+  "description": "Landing Page Agroforte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigopdo/projeto-vanilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigopdo/projeto-vanilla/issues"
+  },
+  "homepage": "https://github.com/rodrigopdo/projeto-vanilla#readme"
+}

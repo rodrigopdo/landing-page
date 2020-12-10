@@ -1,0 +1,160 @@
+@import './grid';
+@import './mixin';
+@import './reset';
+@import './variables';
+
+
+/*INÍCIO MODAL DADOS INICIAIS =======================*/
+.modal-container {
+    display: none;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    padding-top: 70px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.6);
+    }
+    
+    .modal-content {
+    background-color: #f3f3f3;
+    margin: 10px auto auto;
+    padding: 10px;
+    width: 50%;
+    border-radius: 2px;
+    min-width: 300px;
+    max-width: 500px;
+    animation: modal 0.7s;
+    z-index: 3;
+    }
+    
+    
+    .modal-content h3 {
+    text-align: start;
+    margin: 20px 35px 10px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bolder;
+    }
+    
+    .modal-content img {
+    margin: 8px auto 0 25px;
+    width: 30%;
+    }
+    
+    .btn-fechar {
+    margin: 5px 15px 0 0;
+    color: #3DD969;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    }
+    
+    .btn-fechar:hover,
+    .close:focus {
+    color:#333333;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    
+    .termos-de-uso {
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 20px;
+    }
+    .termos-de-uso a {
+    color: #1DA042;
+    }
+    
+    .btn-modal {
+    background: #1DA042;
+    box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.58);
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto 30px;
+    }
+    
+    .btn-modal:hover {
+    box-shadow: -2px 1px 8px 2px rgba(0,0,0,0.27);
+    }
+    
+    .label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 25px;
+    }
+    
+    .label-float input{
+    border-bottom: 1px solid #333333;
+    height: 50px;
+    width: 85%;
+    margin: 5px auto 5px;
+    padding-left: 18px;
+    display: block;
+    color: #333333;
+    font-size: 16px;
+    min-width: 180px;
+    font-size: 18px;
+    transition: all .3s ease-out; 
+    }
+    
+    .label-float input:focus{
+    border-bottom: 2px solid#1DA042;
+    font-size: 20px;
+    }
+    
+    .label-float input::placeholder{
+    color:transparent;
+    }
+    
+    .label-float label{
+    pointer-events: none;
+    position: absolute;
+    top: 7px;
+    left: 25px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin: 28px 0 0 20px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    }
+    
+    .label-float input:invalid{
+    border-bottom: 1px solid #333333;
+    }
+    
+    .label-float input:focus + label,
+    .label-float input:not(:placeholder-shown) + label{
+    font-size: 14px;
+    margin-top: -8px;
+    color: #1DA042;
+    }
+    
+    
+    @keyframes modal {
+        from {
+            opacity: 0;
+            transform: translate3d(0, -500px, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+        }
+        
+        .nome-completo {
+        text-transform: capitalize;
+        }
+    

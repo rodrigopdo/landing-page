@@ -1,0 +1,120 @@
+@import './grid';
+@import './mixin';
+@import './reset';
+@import './variables';
+
+
+main {
+    padding-top: 200px;
+
+    h1 {
+        font-size: 80px;
+        font-family: 'Helvetica';
+        font-weight: weight (bold);
+        color: $white;
+        line-height: 1.1;
+    }
+    h2 {
+        font-family: 'Helvetica';
+        margin-top: 5px;
+        font-size: 40px;
+        color: $white;
+        letter-spacing: 0;
+        line-height: 1.5;
+    }
+    h4 {
+        color: $white;
+        max-width: 500px;
+        font-size: 18px;
+        font-weight: 500;
+        padding-top: 20px;
+        line-height: 1.8rem;
+        margin-bottom: 90px;
+    }
+    p {
+        color: $white;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }     
+}
+
+.bg-img {
+    background: url(/img/trator-2.png) no-repeat center;
+    width: 100%;
+    height: 851px;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+.cta-1 {
+    @include Btn(450px, 20px 40px, 16px);
+    
+    &:hover {
+        background: $secondary-green;
+    } 
+}
+//EFEITO TYPEWRITER
+#typewriter:after {
+    content: '|';
+    margin-left: 1px;
+    opacity: 1;
+    color: $white;
+    animation: piscar .9s infinite;
+  }
+  
+  @keyframes piscar {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+//EFEITO ARROW-DOWN
+  .fas.icone {
+    font-size: 30px;
+    color: $white;
+    opacity: 1;
+    animation: arrow 1500ms ease-in-out infinite;
+  }
+  @keyframes arrow {
+    to {
+        transform: scale(0.98) translateY(30px);
+        opacity: 0.1;
+    }
+  }
+  
+  .arrow-down {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  @media (max-width: 800px) {
+    .arrow-down {
+      opacity: 0;
+    }
+  }
+
+/*INÍCIO ICON WHATS===========================*/
+.icon-whats {
+    position:fixed; 
+    height:70px; 
+    right: 25px; 
+    bottom: 25px;
+    z-index: 1; 
+    
+    &:hover {
+        animation: whats .1s;
+    } 
+} 
+@keyframes whats {
+    from {
+        right: 35px;
+    }
+    to {
+        right: 20px;
+    }
+}
+/*FIM ICON WHATS==============================*/
+

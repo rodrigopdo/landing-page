@@ -1,0 +1,112 @@
+@import './grid';
+@import './mixin';
+@import './reset';
+@import './variables';
+
+
+
+
+.bg-produtos-sobre {
+    background: $light-bg;
+    background: radial-gradient(circle, rgba(255,254,248,0.4845039281952247) 0%, rgba(232,206,48,0.4806297387969628) 100%);  
+}
+  
+.produtos {
+    padding: 100px 0 120px;
+    
+    h1 {
+        color: $dark-gray;
+        text-align: start;
+        margin: 40px auto 15px;
+        font-size: 40px;
+    }
+    h2 {
+        color: $primary-green;
+        font-weight: 300;
+        text-align: start;
+        font-size: 30px;
+        margin-bottom: 130px;
+    }
+}
+
+.img-cards {
+    padding-top: 60px;
+    
+}
+
+.btn-md {
+    background-color: #3DD969;
+    width: 60%;
+    margin: 0 auto 50px;
+    text-align: center;
+    padding: 18px 25px;
+    color:#fff;
+    box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.58);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+        box-shadow: -2px 1px 8px 2px rgba(0,0,0,0.27);
+    }   
+}
+   
+.flex-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+.grid-cards {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:"card1 card2 card3";
+    grid-gap: 30px 30px;
+    margin-top: 60px;
+    transform: scale(0.1);
+    transition: all .7s ease-in-out;
+
+    h3 {
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 15px 0
+    }
+
+    p {
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 0 20px 30px;
+    }
+}
+
+/*ANIMATION CARDS */
+.active-cards{ 
+    opacity: 1;
+    transform: scale(1);
+}
+
+.card1 {
+    @include cardsProdutos (card1);
+} 
+.card2 {
+    @include cardsProdutos (card2);
+}
+.card3 {
+    @include cardsProdutos (card3);
+}
+
+@media (max-width: 1100px) {
+
+    .grid-cards {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "card1"
+      "card2"
+      "card3"; 
+    }
+  }
+  
+

@@ -1,0 +1,17 @@
+@import './grid';
+@import './mixin';
+@import './reset';
+@import './variables';
+
+
+footer {
+    background-color: $secondary-green;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: $white;
+    
+    p {
+        padding: 80px 0;
+    }
+}

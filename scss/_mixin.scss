@@ -1,0 +1,50 @@
+@mixin flexCenter ($direction: column, $justify-content: center) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin grid ($template-area, $columns) {
+    display: grid;
+    grid-template-areas: $template-area;
+    grid-template-columns: $columns;
+}
+
+
+@mixin Btn ($max-width, $padding, $font-size) {
+    background: $primary-green;
+    width: 100%;
+    max-width: $max-width;
+    text-align: center;
+    padding: $padding;
+    color: $white;
+    font-size: $font-size;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+@mixin btnMd ($width, $padding) {
+    width: $width;
+    padding: $padding;
+    color: $white;
+    margin: 0 auto 50px;
+    text-align: center;
+    background-color: #3DD969;
+    box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.58);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@mixin cardsProdutos ($grid-area) {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.58);
+    height: auto;
+    grid-area: $grid-area;
+}
+

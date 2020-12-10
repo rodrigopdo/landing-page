@@ -1,0 +1,467 @@
+@import './mixin';
+@import './reset';
+@import './variables';
+
+
+.container  {
+    width: 100%;
+    margin: 0 auto 0;
+}
+
+@media (max-width: 580px) {
+    
+    .bg-img {
+        background: url(/img/trator-5-cut.png) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: auto;
+        height: 650px;
+    }
+    .bg-img-1 {
+        background: url(/img/bg-app-2.png) no-repeat center;
+        width: 100%;
+        height: 851px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .cta-1 {
+        display: block;
+        width: 10 0%;
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+    .logo {
+        padding-left: 10px;
+        width: 150px;
+    }
+    main {
+        padding-top: 130px;
+    }
+ 
+    main h4 {
+        margin: 140px auto 30px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    main p {
+        font-size: 13px;
+    }
+    .produtos {
+        padding: 20px 0 50px;
+    }
+    .produtos h1 {
+        margin: 40px auto 15px;
+        font-size: 25px;
+    }
+    .produtos h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .icon-whats {
+        height: 45px;
+    }
+    .sobre h1 {
+        margin: 0px auto 30px;
+        font-size: 25px;
+    }
+    .sobre h2 {
+        font-size: 20px;
+        color: $secondary-green;
+    }      
+    .item-contato-3 {
+        padding-bottom: 50px;
+    }
+    .contato h1 {
+        color: $primary-green;
+        padding: 70px 0 20px;
+        font-size: 25px;
+    }
+    .contato h4 {
+        margin-bottom: 20px;
+    }      
+}
+
+@media (max-width: 1000px) {
+    .mobile-img {
+        display: none;
+    }
+    .mobile-img-cut {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .article-col-2 {
+        padding-top: 10px;
+    }
+    article{
+        padding-top: 150px;
+        flex-direction: column;
+    }
+  
+}
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 300px;
+        width: 100%;
+    }
+    .icon-whats {
+        height: 45px;
+    }    
+    main h1 {
+        font-size: 35px;
+    }
+    main h2 {
+        font-size: 20px;
+    }
+    main h3 {
+        font-size: 18px;
+    }
+    section h1 {
+        margin: 0px auto 70px;
+        font-size: 40px;
+    }
+    section h2 {
+        font-size: 30px;
+        color: $secondary-green;
+    }
+    section p {
+        color: #333333;
+        font-size: 16px;
+    }
+    article h1 {
+        font-size: 35px;
+    }
+    .contato h1 {
+        font-size: 25px;
+        padding: 350px 0 15px;
+        padding: 350px 0 15px;
+
+    }
+}
+
+@media (min-width: 476px) {
+    .container {
+        max-width: 460px;
+        width: 100%;
+    }
+    .icon-whats {
+        height: 50px;
+    }
+    main h1 {
+        font-size: 35px;
+    }
+    main h2 {
+        font-size: 20px;
+    }
+    article h1 {
+        font-size: 35px;
+    }
+    .contato h1 {
+        font-size: 28px;
+        padding: 250px 0 15px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .container {
+        max-width: 580px;
+    }
+    .icon-whats {
+        height: 60px;
+    }
+    .bg-img {
+        background-size: cover;
+        background-attachment: fixed;
+        width: auto;
+    }
+    main h1 {
+        font-size: 40px;
+    }
+    main h2 {
+        font-size: 25px;
+    }
+    .produtos h1 {
+        margin: 35px auto 20px;
+        font-size: 30px;
+    }
+    .produtos h2 {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .sobre h1 {
+        margin: 0px auto 40px;
+        font-size: 30px;
+    }
+    .sobre h2 {
+        font-size: 25px;
+        color: $secondary-green;
+    }
+    article h1 {
+        font-size: 40px;
+    }
+    .contato h1 {
+        font-size: 30px;
+        padding: 150px 0 15px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    main h1 {
+        font-size: 50px;
+    }
+    main h2 {
+        font-size: 30px;
+    }
+    article h1 {
+        font-size: 50px;
+    }
+    
+    .contato h1 {
+        font-size: 35px;
+        padding: 200px 0 15px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+    main h1 {
+        font-size: 60px;
+    }
+    main h2 {
+        font-size: 35px;
+    }
+    article h1 {
+        font-size: 60px;
+    }
+    .contato h1 {
+        font-size: 35px;
+        padding: 100px 0 15px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1120px;
+    }
+    main h1 {
+        font-size: 70px;
+    }
+    main h2 {
+        font-size: 40px;
+    }
+    section {
+        font-size: 70px;
+    }
+}
+
+
+/*=========SECTION SOBRE================================*/
+
+@media (max-width: 800px) {
+    .flex-section {
+      flex-direction: column-reverse;
+    }
+    .flex-section-1 {
+      flex-direction: column;
+    }
+    .flex-section-2 {
+      flex-direction: column-reverse;
+    }
+    .icon-1, .icon-3 {
+      text-align: center;
+     }
+     .icon-2 {
+      text-align: center;
+     }
+     section h2 {
+       margin-top: 20px;
+     }
+  }
+
+
+
+  /*===MODAL CADASTRO====================*/
+  @media (max-width: 600px) {
+
+    .modal-container {
+    display: none;
+    position: fixed;
+    text-align: center;
+    padding-top: 70px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.6);
+  }
+  .modal-content {
+    background-color: $light-gray;
+    margin: 10px auto auto;
+    padding: 10px;
+    border-radius: 2px;
+    min-width: 300px;
+    max-width: 500px;
+    animation: modal 0.7s;
+    z-index: 6;
+  }
+  .modal-content h3 {
+    text-align: start;
+    margin: 10px;
+    color: $dark-green;
+    font-size: 14px;
+  }
+  .label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 10px;
+  }
+  .btn-modal {
+    width: 70%;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+}
+
+.row {
+    display: flex;
+}
+.col-auto {
+    width: auto;
+    width: 100%;
+}
+.col-1 {
+    flex: 8.333333%;
+    width: 100%;
+} 
+.col-2 {
+    flex: 16.666667%;
+    width: 100%;
+}
+.col-3 {
+    flex: 25%;
+    width: 100%;
+}
+.col-4 {
+    flex: 33.333333%;
+    width: 100%;
+}
+.col-5 {
+    flex: 41.666667%;
+    width: 100%;
+}
+.col-6 {
+flex: 50%;
+width: 100%;
+}
+.col-7 {
+flex: 58.333333%;
+width: 100%;
+}
+.col-8 {
+flex: 66.666667%;
+width: 100%;
+}
+.col-9 {
+flex: 75%;
+width: 100%;
+}
+.col-10 {
+flex: 83.333333%;
+width: 100%;
+}
+.col-11 {
+flex: 91.666667%;
+width: 100%;
+}
+.col-12 {
+flex: 100%;
+width: 100%;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    margin: 140px 0 160px; 
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.grid-3-9-col {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-row-gap: 20px 20px;
+    grid-column-gap: 10px;
+}
+
+.grid-2-5-5-col {
+    display: grid;
+    grid-template-columns: 2fr 5fr 5fr;
+    grid-row-gap: 20px 20px;
+    grid-column-gap: 10px;
+}
+
+.grid-10-2-col {
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    grid-row-gap: 20px 20px;
+    grid-column-gap: 10px;
+}
+
+.grid-4-5-3-col {
+    display: grid;
+    grid-template-columns: 4fr 5fr 3fr;
+    grid-row-gap: 20px 20px;
+    grid-column-gap: 10px;
+}
+
+.grid-8-4-col {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-row-gap: 20px 20px;
+    grid-column-gap: 10px;
+}
+
+.grid-6-2-4-col {
+    display: grid;
+    grid-template-columns: 6fr 2fr 4fr;
+    grid-row-gap: 20px 20px;
+    grid-column-gap: 10px;
+}
+
+.grid-1-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
