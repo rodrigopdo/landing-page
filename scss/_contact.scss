@@ -4,11 +4,11 @@
 @import './variables';
 
 
-.bg-contato {
+.bg-contact {
     background: $dark-green;
 } 
   
-.contato {
+.contact {
     text-align: center;
     
     h1 {
@@ -32,7 +32,7 @@
     }
 }
 
-.grid-contato {
+.grid-contact {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-gap: 60px 60px;
@@ -51,12 +51,12 @@
 
 @media (max-width: 1100px) {
 
-    .contato {
+    .contact {
         h1 {
             font-size: 30px;
         }
     }
-    .grid-contato {
+    .grid-contact {
         grid-template-columns: 1fr;
         grid-template-areas:
         "contato1"
@@ -67,7 +67,6 @@
         p {
             margin-bottom: 30px;
         }
-        
         &__phone {
             margin-bottom: 100px;
         }

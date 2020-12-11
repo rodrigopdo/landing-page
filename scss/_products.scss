@@ -4,14 +4,12 @@
 @import './variables';
 
 
-
-
-.bg-produtos-sobre {
+.bg-products-about {
     background: $light-bg;
     background: radial-gradient(circle, rgba(255,254,248,0.4845039281952247) 0%, rgba(232,206,48,0.4806297387969628) 100%);  
 }
   
-.produtos {
+.products {
     padding: 100px 0 120px;
     
     h1 {
@@ -89,13 +87,13 @@
 }
 
 .card1 {
-    @include cardsProdutos (card1);
+    @include cardsProducts (card1);
 } 
 .card2 {
-    @include cardsProdutos (card2);
+    @include cardsProducts (card2);
 }
 .card3 {
-    @include cardsProdutos (card3);
+    @include cardsProducts (card3);
 }
 
 @media (max-width: 1100px) {

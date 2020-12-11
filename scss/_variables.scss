@@ -1,5 +1,4 @@
 
-
 $primary-green: #3DD969; 
 $secondary-green: #1DA042; 
 $light-green: #8CE269; 
@@ -8,7 +7,7 @@ $dark-gray: #333333;
 $red-alert: #FF5967; 
 $light-gray: #F3F3F3;
 $white: white; 
-/*$????-green: 145536; checar se usar no projeto*/
+/*$??-green: 145536; Ensure the use of this colour*/
 $light-bg: rgb(255,254,248);
 
 $font-weight: (
@@ -17,7 +16,6 @@ $font-weight: (
     "bold": 700,
     "bolder": 800
 );
-
 @function weight ($key) {
     @return map-get($font-weight, $key);
 }

@@ -1,7 +1,6 @@
 
 
-//=======INÍCIO EFEITO NAVBAR =====================
-
+//==NAVBAR===========================
 window.onscroll = () => { 
     scrollFunction()
 };
@@ -14,11 +13,7 @@ function scrollFunction() {
     }
 }
 
-//=======FIM EFEITO NAVBAR=================
-
-
-//=======EFEITO TYPEWRITER=================
-
+//==TYPEWRITER========================
 function typeWriter(element) {
     const textArray = element.innerHTML.split('');
     element.innerHTML = '';
@@ -30,10 +25,8 @@ function typeWriter(element) {
 const titulo = document.getElementById('typewriter')
 typeWriter(titulo);
 
-//======= FIM EFEITO TYPEWRITER=================
 
-//======= INÍCIO ANIMAÇÃO CARDS PRODUTOS =================
-
+//==CARDS PRODUCTS SECTION=============
 window.addEventListener('scroll', () => {
     let content = document.querySelector('.grid-cards');
     let contentPosition = content.getBoundingClientRect().top;
@@ -45,18 +38,15 @@ window.addEventListener('scroll', () => {
     }
 });
 
-//======= FIM ANIMAÇÃO CARDS PRODUTOS =================
-
-//======= INÍCIO ANIMAÇÃO SOBRE =================
-
+//==ABOUT SECTION=================
 window.addEventListener('scroll', () => {
     let content1 = document.querySelector('.anima-1');
     let contentPosition1 = content1.getBoundingClientRect().top;
     let screenPosition1 = window.innerHeight;
     if(contentPosition1 < screenPosition1) {
-        content1.classList.add('active-sobre');
+        content1.classList.add('active-about');
     }else {
-        content1.classList.remove('active-sobre');
+        content1.classList.remove('active-about');
     }
 });
 
@@ -65,9 +55,9 @@ window.addEventListener('scroll', () => {
     let contentPosition2 = content2.getBoundingClientRect().top;
     let screenPosition2 = window.innerHeight;
     if(contentPosition2 < screenPosition2) {
-        content2.classList.add('active-sobre');
+        content2.classList.add('active-about');
     }else {
-        content2.classList.remove('active-sobre');
+        content2.classList.remove('active-about');
     }
 });
 
@@ -76,11 +66,10 @@ window.addEventListener('scroll', () => {
     let contentPosition3 = content3.getBoundingClientRect().top;
     let screenPosition3 = window.innerHeight;
     if(contentPosition3 < screenPosition3) {
-        content3.classList.add('active-sobre');
+        content3.classList.add('active-about');
     }else {
-        content3.classList.remove('active-sobre');
+        content3.classList.remove('active-about');
     }
 });
 
-//======= FIM ANIMAÇÃO SOBRE =================
 

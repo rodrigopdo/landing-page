@@ -20,10 +20,26 @@
     }
 }
 
-.navegacao {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    input:checked ~ .hamburger {
+        background: transparent;
+    }
+    input:checked ~ .hamburger:before {
+        top: 0;
+        transform: rotate(-45deg);   
+    }
+    input:checked ~ .hamburger:after {
+        top: 0;
+        transform: rotate(45deg);  
+    }
+    input:checked ~ .menu {
+        right: 0;
+        box-shadow: -20px 0 40px  rgba(0,0,0,0.3);
+    }
 }
 
 .menu {
@@ -73,30 +89,27 @@
     cursor: pointer;
     z-index: 2;
     transition: transform 1s ease;
+    
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        height: 4px;
+        right: 0;
+        background: $white;
+        border-radius: 10px;
+        transition: transform 1s ease ;
+    }
+    &:before {
+        top: -10px;
+        width: 30px;  
+    }
+    &:after {
+        top: 10px;
+        width: 30px;  
+    } 
 }
-
-.hamburger:before,
-.hamburger:after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    right: 0;
-    background: $white;
-    border-radius: 10px;
-    transition: transform 1s ease ;
-}
-
-.hamburger:before {
-    top: -10px;
-    width: 30px;  
-}
-
-.hamburger:after {
-    top: 10px;
-    width: 30px;  
-}
-
-.toggleMenu {
+    .toggleMenu {
     position: absolute; 
     width: 30px;
     height: 100%;
@@ -109,28 +122,7 @@
 .toggleMenu {
     display: none;
 }
-
-.navegacao input:checked ~ .hamburger {
-    background: transparent;
-}
-
-.navegacao input:checked ~ .hamburger:before {
-    top: 0;
-    transform: rotate(-45deg);
-    
-}
-
-.navegacao input:checked ~ .hamburger:after {
-    top: 0;
-    transform: rotate(45deg);  
-}
-
-.navegacao input:checked ~ .menu {
-    right: 0;
-    box-shadow: -20px 0 40px  rgba(0,0,0,0.3);
-}
-
-//Resolução Mobile
+//Mobile
 @media screen and (max-width: 992px) {
     .hamburger,
     .toggleMenu {

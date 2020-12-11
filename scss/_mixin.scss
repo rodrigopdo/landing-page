@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-@mixin cardsProdutos ($grid-area) {
+@mixin cardsProducts ($grid-area) {
     background-color: #fff;
     text-align: center;
     box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.58);

@@ -1,5 +1,5 @@
 {
-  "name": "landing-page-vanilla-sass-npm",
+  "name": "landing-page-agroforte",
   "version": "1.0.0",
   "description": "Landing Page Agroforte",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/rodrigopdo/projeto-vanilla.git"
   },
-  "author": "",
+  "author": "Rodrigo Prudente",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rodrigopdo/projeto-vanilla/issues"

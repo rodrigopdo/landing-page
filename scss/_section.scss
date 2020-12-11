@@ -4,10 +4,11 @@
 @import './variables';
 
 
-.sobre {
+.about {
     padding: 100px 0;
     
-    /*checar a possibilidade de inclusão de h1
+    /*Check whether should include "h1" 
+    in this section or not.
     h1 {
         color: #333333;
         font-weight: 400;
@@ -60,7 +61,7 @@
     transition: all 0.9s ease-in-out;  
 }
 
-.active-sobre {
+.active-about {
     opacity: 1;
     transform: translateX(0);
 }
