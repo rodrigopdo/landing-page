@@ -4,26 +4,28 @@
 @import './variables';
 
 
-.bg-products-about {
-    background: $light-bg;
-    background: radial-gradient(circle, rgba(255,254,248,0.4845039281952247) 0%, rgba(232,206,48,0.4806297387969628) 100%);  
+.bg-products {
+    background: #f3f3f3
 }
-  
 .products {
     padding: 100px 0 120px;
-    
+    /*
     h1 {
         color: $dark-gray;
         text-align: start;
         margin: 40px auto 15px;
         font-size: 40px;
     }
+    */
+
     h2 {
-        color: $primary-green;
+        color: $white;
         font-weight: 300;
-        text-align: start;
-        font-size: 30px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
         margin-bottom: 130px;
+        letter-spacing: 2px;
     }
 }
 

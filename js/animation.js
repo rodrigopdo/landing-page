@@ -1,15 +1,11 @@
 
-
-//==NAVBAR===========================
-window.onscroll = () => { 
-    scrollFunction()
-};
-    
-function scrollFunction() {
+//==NAVBAR===========================    
+window.onscroll = function scrollFunction() {
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
         document.getElementById("header").style.background = "#145536"; 
     } else {
-        document.getElementById("header").style.background = "rgba(20, 85, 54, 0)";
+        document.getElementById("header").style.background = "transparent";
+        document.getElementsByClassName("menu")[0].style.fontSize = "xx-large"; 
     }
 }
 

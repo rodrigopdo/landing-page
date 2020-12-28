@@ -5,14 +5,14 @@
 
 
 .bg-contact {
-    background: $dark-green;
-} 
+    background: linear-gradient(180deg, #1DB954 0.49%, #00704A 99.46%);
+    } 
   
 .contact {
     text-align: center;
     
     h1 {
-        color: $primary-green;
+        color: $white;
         padding: 90px 0 20px;
         font-size: 40px;
     }

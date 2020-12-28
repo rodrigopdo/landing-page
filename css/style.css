@@ -1,5 +1,3 @@
-@charset "UTF-8";
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -46,14 +44,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -330,66 +375,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -399,49 +387,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -488,8 +433,6 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -536,14 +479,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -820,66 +810,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -889,49 +822,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -978,24 +868,23 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 main {
   padding-top: 200px; }
   main h1 {
     font-size: 80px;
     font-family: 'Helvetica';
     font-weight: weight bold;
-    color: white;
+    color: #FFFFFF;
     line-height: 1.1; }
   main h2 {
     font-family: 'Helvetica';
     margin-top: 5px;
     font-size: 40px;
-    color: white;
+    color: #FFFFFF;
     letter-spacing: 0;
     line-height: 1.5; }
   main h4 {
-    color: white;
+    color: #FFFFFF;
     max-width: 500px;
     font-size: 18px;
     font-weight: 500;
@@ -1003,37 +892,37 @@ main {
     line-height: 1.8rem;
     margin-bottom: 90px; }
   main p {
-    color: white;
+    color: #FFFFFF;
     font-weight: bold;
     margin-bottom: 10px; }
 
 .bg-img {
-  background: url(/img/trator-2.png) no-repeat center;
+  background: url(/img/cow-farm.jpg) no-repeat center;
   width: 100%;
-  height: 851px;
+  height: 1000px;
   background-size: cover;
   background-attachment: fixed; }
 
 .cta-1 {
-  background: #3DD969;
+  background: #1DA042;
   width: 100%;
   max-width: 450px;
   text-align: center;
   padding: 20px 40px;
-  color: white;
+  color: #FFFFFF;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s ease; }
   .cta-1:hover {
-    background: #1DA042; }
+    background: #0F8D48; }
 
 #typewriter:after {
   content: '|';
   margin-left: 1px;
   opacity: 1;
-  color: white;
+  color: #FFFFFF;
   animation: piscar .9s infinite; }
 
 @keyframes piscar {
@@ -1043,7 +932,7 @@ main {
     opacity: 0; } }
 .fas.icone {
   font-size: 30px;
-  color: white;
+  color: #FFFFFF;
   opacity: 1;
   animation: arrow 1500ms ease-in-out infinite; }
 
@@ -1058,7 +947,6 @@ main {
 @media (max-width: 800px) {
   .arrow-down {
     opacity: 0; } }
-/*INÍCIO ICON WHATS===========================*/
 .icon-whats {
   position: fixed;
   height: 70px;
@@ -1070,11 +958,9 @@ main {
 
 @keyframes whats {
   from {
-    right: 35px; }
+    right: 32px; }
   to {
-    right: 20px; } }
-/*FIM ICON WHATS==============================*/
-/*$??-green: 145536; Ensure the use of this colour*/
+    right: 30px; } }
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -1121,14 +1007,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -1405,66 +1338,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -1474,49 +1350,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -1563,24 +1396,27 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
-.bg-products-about {
-  background: #fffef8;
-  background: radial-gradient(circle, rgba(255, 254, 248, 0.4845039282) 0%, rgba(232, 206, 48, 0.4806297388) 100%); }
+.bg-products {
+  background: #f3f3f3; }
 
 .products {
-  padding: 100px 0 120px; }
-  .products h1 {
-    color: #333333;
-    text-align: start;
-    margin: 40px auto 15px;
-    font-size: 40px; }
+  padding: 100px 0 120px;
+  /*
+  h1 {
+      color: $dark-gray;
+      text-align: start;
+      margin: 40px auto 15px;
+      font-size: 40px;
+  }
+  */ }
   .products h2 {
-    color: #3DD969;
+    color: #FFFFFF;
     font-weight: 300;
-    text-align: start;
-    font-size: 30px;
-    margin-bottom: 130px; }
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 130px;
+    letter-spacing: 2px; }
 
 .img-cards {
   padding-top: 60px; }
@@ -1633,21 +1469,21 @@ select {
 .card1 {
   background-color: #fff;
   text-align: center;
-  box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0 0.375em 16px 0 rgba(0, 0, 0, 0.1);
   height: auto;
   grid-area: card1; }
 
 .card2 {
   background-color: #fff;
   text-align: center;
-  box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0 0.375em 16px 0 rgba(0, 0, 0, 0.1);
   height: auto;
   grid-area: card2; }
 
 .card3 {
   background-color: #fff;
   text-align: center;
-  box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0 0.375em 16px 0 rgba(0, 0, 0, 0.1);
   height: auto;
   grid-area: card3; }
 
@@ -1655,7 +1491,6 @@ select {
   .grid-cards {
     grid-template-columns: 1fr;
     grid-template-areas: "card1" "card2" "card3"; } }
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -1702,14 +1537,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -1986,66 +1868,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -2055,49 +1880,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -2144,7 +1926,9 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
+.section-bg {
+  background: linear-gradient(180deg, #3dd969, #fff); }
+
 .about {
   padding: 100px 0;
   /*Check whether should include "h1" 
@@ -2196,7 +1980,6 @@ select {
   opacity: 1;
   transform: translateX(0); }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -2243,14 +2026,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -2527,66 +2357,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -2596,49 +2369,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -2685,7 +2415,6 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .bg-img-1 {
   background: url(/img/bg-app-2.png) no-repeat center;
   width: 100%;
@@ -2705,24 +2434,23 @@ article {
   article h1 {
     font-family: 'Helvetica', sans-serif;
     font-size: 50px;
-    color: white;
+    color: #FFFFFF;
     line-height: 1.2; }
   article h4 {
-    color: white;
+    color: #FFFFFF;
     max-width: 500px;
     font-size: 18px;
     font-weight: 500;
     padding-top: 20px;
     line-height: 1.8rem; }
   article p {
-    color: white;
+    color: #FFFFFF;
     font-weight: bold;
     margin-bottom: 12px; }
 
 .google-store, .apple-store {
   width: 130px; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -2769,14 +2497,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -3053,66 +2828,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -3122,49 +2840,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -3211,26 +2886,25 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .bg-contact {
-  background: #0F8D48; }
+  background: linear-gradient(180deg, #1DB954 0.49%, #00704A 99.46%); }
 
 .contact {
   text-align: center; }
   .contact h1 {
-    color: #3DD969;
+    color: #FFFFFF;
     padding: 90px 0 20px;
     font-size: 40px; }
   .contact h4 {
-    color: white;
+    color: #FFFFFF;
     font-weight: 400;
     margin-bottom: 30px; }
   .contact h3 {
-    color: white;
+    color: #FFFFFF;
     font-size: 20px; }
   .contact p {
     font-size: 16px;
-    color: white;
+    color: #FFFFFF;
     margin-bottom: 150px; }
 
 .grid-contact {
@@ -3258,7 +2932,6 @@ select {
       margin-bottom: 30px; }
     .grid-contact__phone {
       margin-bottom: 100px; } }
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -3305,14 +2978,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -3589,66 +3309,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -3658,49 +3321,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -3747,17 +3367,15 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 footer {
   background-color: #1DA042;
   width: 100%;
   height: auto;
   text-align: center;
-  color: white; }
+  color: #FFFFFF; }
   footer p {
     padding: 80px 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -3804,14 +3422,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -4088,66 +3753,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -4157,49 +3765,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -4246,7 +3811,6 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .modal-container {
   display: none;
   position: fixed;
@@ -4364,7 +3928,6 @@ select {
 .nome-completo {
   text-transform: capitalize; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -4411,7 +3974,6 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -4458,14 +4020,61 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .container {
   width: 100%;
-  margin: 0 auto 0; }
+  margin: 0 auto; }
+
+.col-1 {
+  flex: 8.3333333333%;
+  width: 100%; }
+
+.col-2 {
+  flex: 16.6666666667%;
+  width: 100%; }
+
+.col-3 {
+  flex: 25%;
+  width: 100%; }
+
+.col-4 {
+  flex: 33.3333333333%;
+  width: 100%; }
+
+.col-5 {
+  flex: 41.6666666667%;
+  width: 100%; }
+
+.col-6 {
+  flex: 50%;
+  width: 100%; }
+
+.col-7 {
+  flex: 58.3333333333%;
+  width: 100%; }
+
+.col-8 {
+  flex: 66.6666666667%;
+  width: 100%; }
+
+.col-9 {
+  flex: 75%;
+  width: 100%; }
+
+.col-10 {
+  flex: 83.3333333333%;
+  width: 100%; }
+
+.col-11 {
+  flex: 91.6666666667%;
+  width: 100%; }
+
+.col-12 {
+  flex: 100%;
+  width: 100%; }
 
 @media (max-width: 580px) {
   .bg-img {
-    background: url(/img/trator-5-cut.png) no-repeat center;
+    background: url(/img/cow-farm.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -4742,66 +4351,9 @@ select {
     width: 70%;
     padding: 10px 0;
     font-size: 14px; } }
-.row {
-  display: flex; }
-
 .col-auto {
   width: auto;
   width: 100%; }
-
-.col-1 {
-  flex: 8.333333%;
-  width: 100%; }
-
-.col-2 {
-  flex: 16.666667%;
-  width: 100%; }
-
-.col-3 {
-  flex: 25%;
-  width: 100%; }
-
-.col-4 {
-  flex: 33.333333%;
-  width: 100%; }
-
-.col-5 {
-  flex: 41.666667%;
-  width: 100%; }
-
-.col-6 {
-  flex: 50%;
-  width: 100%; }
-
-.col-7 {
-  flex: 58.333333%;
-  width: 100%; }
-
-.col-8 {
-  flex: 66.666667%;
-  width: 100%; }
-
-.col-9 {
-  flex: 75%;
-  width: 100%; }
-
-.col-10 {
-  flex: 83.333333%;
-  width: 100%; }
-
-.col-11 {
-  flex: 91.666667%;
-  width: 100%; }
-
-.col-12 {
-  flex: 100%;
-  width: 100%; }
-
-.flex-direction-row {
-  flex-direction: row; }
-
-.flex-direction-column {
-  flex-direction: column; }
 
 .flex-main {
   display: flex;
@@ -4811,49 +4363,6 @@ select {
 .flex-wrap {
   flex-wrap: wrap; }
 
-.grid-3-9-col {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-2-5-5-col {
-  display: grid;
-  grid-template-columns: 2fr 5fr 5fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-10-2-col {
-  display: grid;
-  grid-template-columns: 10fr 2fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-4-5-3-col {
-  display: grid;
-  grid-template-columns: 4fr 5fr 3fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-8-4-col {
-  display: grid;
-  grid-template-columns: 8fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-6-2-4-col {
-  display: grid;
-  grid-template-columns: 6fr 2fr 4fr;
-  grid-row-gap: 20px 20px;
-  grid-column-gap: 10px; }
-
-.grid-1-col {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px; }
-
-/*$??-green: 145536; Ensure the use of this colour*/
 * {
   /*Colocar tags e tirar "*" */
   margin: 0;
@@ -4900,7 +4409,6 @@ select {
   overflow: visible;
   padding: 0; }
 
-/*$??-green: 145536; Ensure the use of this colour*/
 .header {
   position: fixed;
   background: rgba(20, 85, 54, 0);
@@ -4912,8 +4420,9 @@ select {
   padding: 0 60px;
   z-index: 2;
   transition: 0.3s ease; }
-  .header .logo a {
-    display: block; }
+  .header .logo {
+    display: block;
+    height: 50px; }
 
 .nav {
   display: flex;
@@ -4939,7 +4448,7 @@ select {
   z-index: 1;
   transition: 0.3s ease; }
   .menu li a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     display: block;
     padding: 30px 25px;
@@ -4965,7 +4474,7 @@ select {
   position: relative;
   width: 30px;
   height: 4px;
-  background: white;
+  background: #FFFFFF;
   border-radius: 10px;
   cursor: pointer;
   z-index: 2;
@@ -4975,7 +4484,7 @@ select {
     position: absolute;
     height: 4px;
     right: 0;
-    background: white;
+    background: #FFFFFF;
     border-radius: 10px;
     transition: transform 1s ease; }
   .hamburger:before {

@@ -5,13 +5,26 @@
 
 .container  {
     width: 100%;
-    margin: 0 auto 0;
+    margin: 0 auto;
 }
 
+//GRID 12 COLUMNS
+$grid-col: 12;
+@function width-column($col) {
+    @return percentage($col / $grid-col) ;
+}
+@for $i from 1 through $grid-col {
+    .col-#{$i} {
+        flex: width-column($i);
+        width: 100%;
+    }
+}
+
+//RESPONSIVITY LAYOUT GRID
 @media (max-width: 580px) {
     
     .bg-img {
-        background: url(/img/trator-5-cut.png) no-repeat center;
+        background: url(/img/cow-farm.jpg) no-repeat center;
         background-size: cover;
         background-attachment: fixed;
         width: auto;
@@ -321,66 +334,9 @@
     }
 }
 
-.row {
-    display: flex;
-}
 .col-auto {
     width: auto;
     width: 100%;
-}
-.col-1 {
-    flex: 8.333333%;
-    width: 100%;
-} 
-.col-2 {
-    flex: 16.666667%;
-    width: 100%;
-}
-.col-3 {
-    flex: 25%;
-    width: 100%;
-}
-.col-4 {
-    flex: 33.333333%;
-    width: 100%;
-}
-.col-5 {
-    flex: 41.666667%;
-    width: 100%;
-}
-.col-6 {
-    flex: 50%;
-    width: 100%;
-}
-.col-7 {
-    flex: 58.333333%;
-    width: 100%;
-}
-.col-8 {
-    flex: 66.666667%;
-    width: 100%;
-}
-.col-9 {
-    flex: 75%;
-    width: 100%;
-}
-.col-10 {
-    flex: 83.333333%;
-    width: 100%;
-}
-.col-11 {
-    flex: 91.666667%;
-    width: 100%;
-}
-.col-12 {
-    flex: 100%;
-    width: 100%;
-}
-.flex-direction-row {
-    flex-direction: row;
-}
-.flex-direction-column {
-    flex-direction: column;
 }
 .flex-main {
     display: flex;
@@ -390,55 +346,4 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
-.grid-3-9-col {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-row-gap: 20px 20px;
-    grid-column-gap: 10px;
-}
-.grid-2-5-5-col {
-    display: grid;
-    grid-template-columns: 2fr 5fr 5fr;
-    grid-row-gap: 20px 20px;
-    grid-column-gap: 10px;
-}
-.grid-10-2-col {
-    display: grid;
-    grid-template-columns: 10fr 2fr;
-    grid-row-gap: 20px 20px;
-    grid-column-gap: 10px;
-}
-.grid-4-5-3-col {
-    display: grid;
-    grid-template-columns: 4fr 5fr 3fr;
-    grid-row-gap: 20px 20px;
-    grid-column-gap: 10px;
-}
-.grid-8-4-col {
-    display: grid;
-    grid-template-columns: 8fr 4fr;
-    grid-row-gap: 20px 20px;
-    grid-column-gap: 10px;
-}
-.grid-6-2-4-col {
-    display: grid;
-    grid-template-columns: 6fr 2fr 4fr;
-    grid-row-gap: 20px 20px;
-    grid-column-gap: 10px;
-}
-.grid-1-col {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 20px;
-    grid-column-gap: 10px;
-}
-
-
-
-
-
-
-
-
-
 
