@@ -22,10 +22,6 @@
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     input:checked ~ .hamburger {
         background: transparent;
     }
@@ -48,16 +44,15 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    z-index: 1;
-    transition: 0.3s ease;  
+    transition: 0.5s ease;  
     
     li a {
-        color: $white;
+        color: $darker-green;
         text-decoration: none;
         display: block;
         padding: 30px 25px;
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: weight(bold);
         line-height: 1;
         transition: 0.3s ease;
     }
@@ -72,19 +67,19 @@
 .facebook-icon {
     margin-left: 40px;
     font-size: 25px;
-    color: $secondary-green;
+    color: $primary-green;
 }
 
 .insta-icon {
     margin-left: 25px ;
     font-size: 25px;
-    color: $secondary-green;
+    color: $primary-green;
 }
 
 .hamburger {
     position: relative;
     width: 30px;
-    height: 4px;
+    height: 2px;
     background: $white;
     border-radius: 10px;
     cursor: pointer;
@@ -95,7 +90,7 @@
     &:after {
         content: "";
         position: absolute;
-        height: 4px;
+        height: 2px;
         right: 0;
         background: $white;
         border-radius: 10px;
@@ -110,23 +105,23 @@
         width: 30px;  
     } 
 }
-    .toggleMenu {
-    position: absolute; 
-    width: 30px;
-    height: 100%;
-    z-index: 3;
-    cursor: pointer;
-    opacity: 0;  
+.toggle-menu {
+position: absolute; 
+width: 30px;
+height: 100%;
+z-index: 3;
+cursor: pointer;
+opacity: 0;  
 }
 
 .hamburger,
-.toggleMenu {
+.toggle-menu {
     display: none;
 }
-//Mobile
+
 @media screen and (max-width: 992px) {
     .hamburger,
-    .toggleMenu {
+    .toggle-menu {
         display: block;
     }
     .header {

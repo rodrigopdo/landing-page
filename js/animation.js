@@ -2,10 +2,19 @@
 //==NAVBAR===========================    
 window.onscroll = function scrollFunction() {
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-        document.getElementById("header").style.background = "#145536"; 
+        document.getElementById("header").style.backgroundColor = "#145536";
+        
+        let changeAllLinks = document.getElementsByClassName("nav__link");
+        for (let i = 0; i < changeAllLinks.length; i++) {
+            changeAllLinks[i].style.color = "white";
+        }
+   
     } else {
         document.getElementById("header").style.background = "transparent";
-        document.getElementsByClassName("menu")[0].style.fontSize = "xx-large"; 
+        let changeAllLinks = document.getElementsByClassName("nav__link");
+        for (let i = 0; i < changeAllLinks.length; i++) {
+            changeAllLinks[i].style.color = "#145536";
+        }
     }
 }
 
@@ -67,5 +76,4 @@ window.addEventListener('scroll', () => {
         content3.classList.remove('active-about');
     }
 });
-
 

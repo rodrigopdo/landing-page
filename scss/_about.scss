@@ -3,28 +3,22 @@
 @import './reset';
 @import './variables';
 
-
-.section-bg {
-    background: linear-gradient(180deg,#3dd969,#fff);
-
+.bg-about {
+    background: #f3f3f3;
 }
-
 .about {
     padding: 100px 0;
-    
-    /*Check whether should include "h1" 
-    in this section or not.
     h1 {
-        color: #333333;
-        font-weight: 400;
-        text-align: start;
-        margin: 0px auto 70px;
-        font-size: 40px;
-    }*/
+        color: $dark-green;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0 auto 130px;
+        letter-spacing: 2px;
+    }
     h2 {
-        font-weight: 300px;
         color: $secondary-green;
-        margin-bottom: 18px;
+        margin: 0 0 18px;
     } 
     p {
         color: $dark-gray;
@@ -33,7 +27,6 @@
         line-height: 30px;
     }
 }
-
 .flex-section, 
 .flex-section-1,
 .flex-section-2 {
@@ -42,15 +35,12 @@
     flex-wrap: wrap;
     padding: 30px 0 70px;
 }
-
 .icon-1, .icon-3, .text-1 {
     text-align: end;
 }
-
 .icon-2 {
     text-align: start;
 }
-
 //ANIMAÇÕES IMG SOBRE
 .anima-1, .anima-3 {
     width: 30%;
@@ -58,7 +48,6 @@
     transform: translateX(-520px);
     transition: all 0.9s ease-in-out;  
 }
-
 .anima-2 {
     width: 30%;
     opacity: 0;
@@ -66,6 +55,7 @@
     transition: all 0.9s ease-in-out;  
 }
 
+//class added/removed by Javascript
 .active-about {
     opacity: 1;
     transform: translateX(0);

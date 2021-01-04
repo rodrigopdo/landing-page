@@ -1,7 +1,7 @@
-$grid__bp-sm: 576px;
-$grid__bp-md: 768px;
-$grid__bp-lg: 992px;
-$grid__bp-xl: 1200px;
+$grid__bp-sm: 576;
+$grid__bp-md: 768;
+$grid__bp-lg: 992;
+$grid__bp-xl: 1200;
 
 $grid__cols: 12;
 
@@ -39,11 +39,12 @@ $map-grid-props: (
   }
 }
 
+//DISPLAYABILITY
 @each $modifier , $breakpoint in $map-grid-props {
   @if($modifier == '') {
     $modifier: '-xs';
   }
-  @include create-mq($breakpoint - 1, 'max') {
+  @include create-mq($breakpoint, 'max') {
     .hidden#{$modifier}-down {
       display: none !important;
     }
@@ -56,7 +57,7 @@ $map-grid-props: (
 }
 
 .container {
-  max-width: $grid__bp-md * 1px;
+  max-width: $grid__bp-xl * 1px;
   margin: 0 auto;
   &--fluid {
     margin: 0;
@@ -71,3 +72,22 @@ $map-grid-props: (
     @include create-col-classes($modifier, $grid__cols, $breakpoint);
   }
 }
+
+.container {
+  background-color: yellowgreen;
+  padding: 10px;
+  box-sizing: border-box;
+  &__row {
+    background: #f3f3f3;
+    div {
+      width: 350px;
+      height: 100px;
+      background-color: #ff6f69;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
+

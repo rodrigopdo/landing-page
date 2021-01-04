@@ -38,11 +38,11 @@ main {
     }     
 }
 
-.bg-img {
-    background: url(/img/cow-farm.jpg) no-repeat center;
+.bg-main {
+    background: url(/img/tractor-3.jpg) no-repeat center;
     width: 100%;
-    height: 1000px;
-    background-size: cover;
+    height: 870px;
+    background-size: 100%;
     background-attachment: fixed;
   }
   
@@ -50,7 +50,7 @@ main {
     @include Btn(450px, 20px 40px, 16px);
     
     &:hover {
-        background: $dark-green;
+        background: $darker-green;
     } 
 }
 //EFEITO TYPEWRITER

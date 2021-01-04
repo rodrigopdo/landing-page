@@ -20,6 +20,7 @@ $grid-col: 12;
     }
 }
 
+
 //RESPONSIVITY LAYOUT GRID
 @media (max-width: 580px) {
     
@@ -42,10 +43,6 @@ $grid-col: 12;
         width: 10 0%;
         font-size: 14px;
         padding: 20px 30px;
-    }
-    .logo {
-        padding-left: 10px;
-        width: 150px;
     }
     main {
         padding-top: 130px;
@@ -72,10 +69,6 @@ $grid-col: 12;
     }
     .icon-whats {
         height: 45px;
-    }
-    .about h1 {
-        margin: 0px auto 30px;
-        font-size: 25px;
     }
     .about h2 {
         font-size: 20px;
@@ -192,22 +185,14 @@ $grid-col: 12;
     main h2 {
         font-size: 25px;
     }
-    .products h1 {
-        margin: 35px auto 20px;
-        font-size: 30px;
-    }
     .products h2 {
         font-size: 25px;
         margin-bottom: 35px;
     }
-    .about h1 {
-        margin: 0px auto 40px;
-        font-size: 30px;
-    }
-    .about h2 {
-        font-size: 25px;
-        color: $secondary-green;
-    }
+    //.about h2 {
+      //  font-size: 25px;
+        //color: $secondary-green;
+    //}
     article h1 {
         font-size: 40px;
     }
@@ -334,16 +319,15 @@ $grid-col: 12;
     }
 }
 
-.col-auto {
-    width: auto;
-    width: 100%;
-}
 .flex-main {
     display: flex;
     flex-direction: row;
     margin: 140px 0 160px; 
 }
 .flex-wrap {
+    display: flex;
     flex-wrap: wrap;
 }
+
+
 

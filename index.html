@@ -18,40 +18,36 @@
                 <img class="logo" id="logo" src="img/new-logo1.png" alt="">
             </a>
         </div>
-        
         <nav class="nav">
-            <input type="checkbox" class="toggleMenu">
+            <input type="checkbox" class="toggle-menu">
             <div class="hamburger"></div>
             <ul class="menu">   
                 <li>
-                    <a href="index.html">Página Inicial</a>
+                    <a class="nav__link" href="index.html">Página Inicial</a>
                 </li>
                 <li>
-                    <a href="#products1">Produtos</a>
+                    <a class="nav__link" href="#products1">Produtos</a>
                 </li>
-                <li >
-                    <a href="#contact1">Contato</a>
+                <li>
+                    <a class="nav__link" href="#contact1">Contato</a>
                 </li>
-                <a class="facebook-icon" href="https:www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-                <a class="insta-icon" href="#"><i class="fab fa-instagram"></i> </a>
+                <a class="facebook-icon" href="https:www.facebook.com"><i class="nav_link fab fa-facebook-square"></i></a>
+                <a class="insta-icon" href="#"><i class="fab fa-instagram"></i></a>
             </ul>     
         </nav>
     </header>
 <!--HEADER ENDS===================================-->
 
 <!--MAIN BEGINS===================================-->
-    <div class="bg-img">
+    <div class="bg-main">
         <main class="container">
             <p>Meu Agroforte</p>    
-            
             <h1>O Banco Digital</h1>
             <h2>do Produtor Rural</h2>
-        
             <h4 id="typewriter">Serviço de crédito ágil e 100% digital que chegou ao campo para ajudar o produtor rural, sem burocracias.</h4>
-            
-            <a id="btnRegister" class="cta-1">Simule uma contratação</a>   
+          
+            <a class="cta-1" id="btnRegister">Simule uma contratação</a>   
         </main>
-        
         <div class="arrow-down">
             <i class="fas fa-chevron-down icone"></i>       
         </div>     
@@ -59,49 +55,33 @@
 <!--MAIN ENDS======================================-->    
     
 <!--PRODUCTS BEGINS===============================-->    
-    <div id="products1" class="bg-products">
+    <div class="bg-products" id="products1">
         <div class="container">
             <div class="products">
-             
-                <!--<h1>Nossos Produtos:</h1>-->
-                
-                <h2>Conheça todas as nossas soluções de crédito!</h2>
-               
-                <div  class="grid-cards">
-                    <div class="card1">
-                        <img class="img-cards" src="img/adequacao-icon-2.png" height="150px" alt="Adequacao">
+                <h1>Conheça todas as nossas soluções de crédito!</h1>
+                <div class="grid-cards">
 
+                    <div class="grid-cards__card1">
+                        <img class="img-card1" src="img/adequacao-icon-2.png" alt="Adequacao">
                         <h3>Crédito para Adequação</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        <button class="btn-md">Saber mais</button>    
+                    </div> 
 
-                        <div class="flex-btn">
-                            <a class="btn-md">Saber mais</a>
-                        </div>
-                    </div>
-                    
-                    <div class="card2">
-                        <img class="img-cards" src="img/custeio-icon-3.png" height="150px" alt="Custeio">
-
+                    <div class="grid-cards__card2">
+                        <img class="img-card2" src="img/custeio-icon-3.png" alt="Custeio">
                         <h3>Crédito para Custeio</h3>
-                        
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-
-                        <div class="flex-btn">
-                            <a class="btn-md" href="#">Saber mais</a>
-                        </div>
+                        <button class="btn-md" href="#">Saber mais</button>
                     </div>
                     
-                    <div class="card3">
-                        <img class="img-cards" src="img/antecipacao-icon-2.png" height="150px" alt="Antecipação">
-
+                    <div class="grid-cards__card3">
+                        <img class="img-card3" src="img/antecipacao-icon-2.png" alt="Antecipação">
                         <h3>Antecipação de Recebíveis</h3>
-                        
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-
-                        <div class="flex-btn">       
-                            <a class="btn-md" href="#">Saber mais</a>
-                        </div>
+                        <button class="btn-md" href="#">Saber mais</button>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -109,14 +89,13 @@
 <!--PRODUCTS ENDS===================================-->
 
 <!--ABOUT BEGINS====================================-->
-    <div class="section-bg">        
+    <div class="bg-about">        
         <div class="container">
             <section class="about">
-                <div>
-                    <h1></h1>
+                <h1>Sobre a Agroforte</h1>
 
-                    <div class="flex-section">
-                        <div class="col-6 anima-1">
+                <div class="flex-section">
+                    <div class="col-6 anima-1">
                         
                         <h2>Lorem Ipsum is simply dummy</h2>
                             
@@ -158,7 +137,7 @@
 <!--ABOUT ENDS ===================================================-->
 
 <!--GET APP ON BEGINS ===================================================-->
-    <div class="bg-img-1">
+    <div class="bg-article">
         <div class="container">
             <article>
                 <div class="col-6 article-col-1">
@@ -175,7 +154,6 @@
                 <div class="col-6 article-col-2">
                     <img class="mobile-img" src="./img/mobile-na-mao3.png" alt="">
                     <img class="mobile-img-cut" src="./img/mobile-na-mao-cut.png" alt="">
-
                 </div>
             </article>
         </div>
@@ -187,7 +165,6 @@
         <div class="container">
             <div class="contact"> 
                 <h1>Gostaria de entrar em contato conosco?</h1>
-                        
                 <h4>Atendimento em dias úteis das 09h às 18h (horário de Brasília) </h4>
                 
                 <div class="grid-contact">
@@ -229,7 +206,7 @@
     <form id=modalDadosIniciais class="modal-content">
         <span class="btn-close">x</span></br>
         
-        <img src="img/logo-agro-ventura.png" alt="">
+        <img src="img/new-logo1.png" alt="">
         
         <h3>Para iniciar, poderia preencher e enviar os seus dados pessoais?</h3>
         
