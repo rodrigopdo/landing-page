@@ -73,21 +73,3 @@ $map-grid-props: (
   }
 }
 
-.container {
-  background-color: yellowgreen;
-  padding: 10px;
-  box-sizing: border-box;
-  &__row {
-    background: #f3f3f3;
-    div {
-      width: 350px;
-      height: 100px;
-      background-color: #ff6f69;
-      margin: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
-  }
-}
-

@@ -20,7 +20,7 @@
     }
     
 .modal-content {
-    background-color: #f3f3f3;
+    background-color: #b8e994;
     margin: 10px auto auto;
     padding: 10px;
     width: 50%;
@@ -29,7 +29,6 @@
     max-width: 500px;
     animation: modal 0.7s;
     z-index: 3;
-    
     h3 {
         text-align: start;
         margin: 20px 35px 10px;
@@ -42,14 +41,13 @@
         width: 30%;
     }
 }
-
 .btn-close {
     margin: 5px 15px 0 0;
     color: #3DD969;
     float: right;
     font-size: 25px;
     font-weight: bold;
-    
+   
     &:hover,
     .close:focus {
         color:#333333;

@@ -45,7 +45,6 @@ main {
     background-size: 100%;
     background-attachment: fixed;
   }
-  
 .cta-1 {
     @include Btn(450px, 20px 40px, 16px);
     
@@ -84,12 +83,10 @@ main {
         opacity: 0.1;
     }
   }
-  
   .arrow-down {
     margin-top: 100px;
     text-align: center;
   }
-  
   @media (max-width: 800px) {
     .arrow-down {
       opacity: 0;
